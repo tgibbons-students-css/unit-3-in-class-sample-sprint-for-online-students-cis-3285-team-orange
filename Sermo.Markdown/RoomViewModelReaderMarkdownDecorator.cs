@@ -17,7 +17,7 @@ namespace Sermo.Markdown
             this.@delegate = @delegate;
             this.markdown = markdown;
         }
-
+        // Changes Sprint 2 --   “I want to send markdown that will be correctly formatted.” -- Mariah Virnig 
         public IEnumerable<RoomViewModel> GetAllRooms()
         {
             return @delegate.GetAllRooms();
